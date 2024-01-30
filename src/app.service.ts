@@ -47,6 +47,7 @@ export class AppService {
   //   const { data } = await this.httpService.axiosRef.get(
   //     `https://pokeapi.co/api/v2/pokemon/${id}`,
   //   );
+  //   // Setting cache
   //   await this.cacheManager.set(id.toString(), data);
   //   return await `${data.name}`;
   // }
